@@ -81,9 +81,9 @@ class PlayerData
     // track player data between levels (when player is destroyed)
     constructor()
     {
-        this.health = 3;
-        this.healthMax = 3;
-        this.boomerangs = 1;
+        this.health = 120;
+        this.healthMax = 120;
+        this.boomerangs = 1000;
         this.bigBoomerangs = 0;
         this.coins = 0;
     }
